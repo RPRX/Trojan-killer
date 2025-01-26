@@ -9,7 +9,7 @@
 
 我们的测试结果如下：
 
-1. 对于浏览器的 HTTPS 流量，**几乎没有阳性结果**。
+1. 对于浏览器的 HTTPS 流量，**误封率约为1%**。
 2. 对于 Trojan 的 TLS in TLS 流量，**Trojan 字样直接刷屏**。
 
 这与我们多次收到的 Trojan 被封、XTLS Vision 存活的反馈相符（它们均可选 Golang 指纹）。
@@ -18,7 +18,7 @@
 
 ## License
 
-[GNU AFFERO GENERAL PUBLIC LICENSE](https://github.com/XTLS/Trojan-killer/blob/main/LICENSE)
+[MPL 2.0](https://github.com/XTLS/Trojan-killer/blob/main/LICENSE)
 
 ## Compilation
 
